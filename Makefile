@@ -1,5 +1,5 @@
 
-TARGET = alloc_all_memory1  alloc_all_memory2  datasize
+TARGET = alloc_all_memory1  alloc_all_memory2  datasize mem_a1
 
 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 INCLUDEDIR = $(KERNELDIR)/include
